@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Formulaire de connexion</title>
+        <style>
+            * {
+                background-color: green;
+            }
+
+            label {
+                padding: 10px
+            } 
+        </style>
+    </head>
+    <body>
+        <form action="formulaire.php" method="POST">
+            <label for="pseudo">Pseudo : </label>
+            <input type="text" id="pseudo" name="pseudo" required></br>
+            <label for="motdepasse">Mot de passe : </label>
+            <input type="text" id="motdepasse"></br>
+            <button type="submit"> Envoyer le formulaire</button>
+        </form>
+        <button action="inscription.php" type="submit" >
+            Créer un compte si vous n'en possédez pas un.
+        </button>
+    </body>
+</html>
